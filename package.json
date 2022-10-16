@@ -1,0 +1,14 @@
+{
+  "name": "manager-web",
+  "version": "1.0.0",
+  "description": "Proyecto final Desarrollo Web",
+  "main": "index.js",
+  "scripts": {
+    "build-sass": "node-sass --include-path scss ./scss/style.scss ./css/style.css -w"
+  },
+  "author": "Guido Tristán",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^7.0.3"
+  }
+}

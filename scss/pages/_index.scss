@@ -1,0 +1,97 @@
+/* <!-- inicio backgraund page -->  */
+.back-home {
+    font-family: Helvetica, sans-serif;
+    background: url("/assets/img/Back-home-page.jpg") fixed;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 1fr; }
+  
+  /* <!-- finalizacion backgraund page -->  */
+  /* <!-- inicio de información de mi sitio --> */
+  .introduction {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 50px;
+    font: Sarpanch, helvetica, sans-serif; }
+  
+  .introduction__title {
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+    font: Sarpanch, helvetica, sans-serif; }
+  
+  .introduction__title:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 20px;
+    transition: 2s; }
+  
+  .introduction__text-subtitle {
+    margin-top: 300px;
+    box-shadow: black;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    font: Sarpanch, helvetica, sans-serif; }
+  
+  .introduction__text-info {
+    margin-top: 50px;
+    color: #f4eeee;
+    font-size: 16px;
+    text-align: center;
+    font-weight: lighter;
+    font: Sarpanch, helvetica, sans-serif; }
+  
+  .introduction__text-info:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    transition: 0.2s; }
+  
+  .introduction__text-subtitle {
+    margin-top: 50px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    font: Sarpanch, helvetica, sans-serif; }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center; }
+  
+  .btn {
+    display: inline-block;
+    margin: 50px 100px 50px 100px;
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffb3b3;
+    background: rgba(125, 160, 212, 0.8);
+    border: 1px solid rgba(125, 160, 212, 0.2);
+    outline: none;
+    cursor: pointer;
+    border-radius: 25px;
+    font: Sarpanch, helvetica, sans-serif;
+    transition: 1s; }
+  
+  span {
+    display: flex; }
+  
+  .btn:hover {
+    background: rgba(251, 251, 251, 0.8);
+    border: 1px solid rgba 251, 251, 251s, 0.2;
+    color: black; }
+  
+  .Introduction__video {
+    position: inline-block;
+    align-items: center;
+    width: 100%;
+    border-radius: 30px; }
+  
+  /* <!-- finalizacion de información de mi sitio --> */
+  
+  
+  

@@ -1,0 +1,28 @@
+/* SERVICIOS PAGE */
+.back-servicios {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(/assets/img/back-sevicios.png) fixed;
+    background-size: cover  ;
+    
+    /* display: grid;
+    grid-template-columns: 1fr; */
+  }
+  .mainproximamente {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    /* margin: 100px 50px; */
+    font: Sarpanch, helvetica, sans-serif;
+    
+   }
+  
+   .mainproximamente h1 {
+    position: fixed;
+    top: 30%;
+    left: 15%;
+      text-align: center;
+      font-size: 72px;
+      color: bisque;
+  } 
